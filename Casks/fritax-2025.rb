@@ -5,8 +5,7 @@ cask "fritax-2025" do
 
   # NOTE: the URL is unversioned: Ringler's dispatcher always serves the latest
   # build of FriTax 2025 (y=2026 = fiscal year + 1). Each new build changes sha256.
-  url "https://webupdate.ringler.ch/VBUpdateDispatcher/KVGetInstaller?k=FR&y=2026&t=N&o=mac",
-      verified: "webupdate.ringler.ch/VBUpdateDispatcher/"
+  url "https://webupdate.ringler.ch/VBUpdateDispatcher/KVGetInstaller?k=FR&y=2026&t=N&o=mac"
   name "FriTax 2025"
   desc "Tax declaration for the canton of Fribourg for the fiscal year 2025"
   homepage "https://www.fr.ch/impots/personnes-physiques/fritax/telecharger-fritax"
